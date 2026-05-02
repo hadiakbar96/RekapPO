@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B994A8042F888F2A004ADC21 /* MyOrders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOrders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B994A8042F888F2A004ADC21 /* RekapPO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RekapPO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		B994A8052F888F2A004ADC21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B994A8042F888F2A004ADC21 /* MyOrders.app */,
+				B994A8042F888F2A004ADC21 /* RekapPO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B994A8032F888F2A004ADC21 /* MyOrders */ = {
+		B994A8032F888F2A004ADC21 /* RekapPO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B994A80F2F888F2B004ADC21 /* Build configuration list for PBXNativeTarget "MyOrders" */;
+			buildConfigurationList = B994A80F2F888F2B004ADC21 /* Build configuration list for PBXNativeTarget "RekapPO" */;
 			buildPhases = (
 				B994A8002F888F2A004ADC21 /* Sources */,
 				B994A8012F888F2A004ADC21 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				B994A8062F888F2A004ADC21 /* MyOrders */,
 			);
-			name = MyOrders;
+			name = RekapPO;
 			packageProductDependencies = (
 			);
 			productName = MyOrders;
-			productReference = B994A8042F888F2A004ADC21 /* MyOrders.app */;
+			productReference = B994A8042F888F2A004ADC21 /* RekapPO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B994A7FF2F888F2A004ADC21 /* Build configuration list for PBXProject "MyOrders" */;
+			buildConfigurationList = B994A7FF2F888F2A004ADC21 /* Build configuration list for PBXProject "RekapPO" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B994A8032F888F2A004ADC21 /* MyOrders */,
+				B994A8032F888F2A004ADC21 /* RekapPO */,
 			);
 		};
 /* End PBXProject section */
@@ -251,19 +251,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZLLZX6CUR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RekapPO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hadial.MyOrders;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadial.RekapPO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -282,19 +285,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZLLZX6CUR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RekapPO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hadial.MyOrders;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadial.RekapPO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -309,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B994A7FF2F888F2A004ADC21 /* Build configuration list for PBXProject "MyOrders" */ = {
+		B994A7FF2F888F2A004ADC21 /* Build configuration list for PBXProject "RekapPO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B994A80D2F888F2B004ADC21 /* Debug */,
@@ -318,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B994A80F2F888F2B004ADC21 /* Build configuration list for PBXNativeTarget "MyOrders" */ = {
+		B994A80F2F888F2B004ADC21 /* Build configuration list for PBXNativeTarget "RekapPO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B994A8102F888F2B004ADC21 /* Debug */,
